@@ -592,7 +592,7 @@ class SerailUI(wx.Frame):
                     num+=1
                     if line[0] == 'Y':
                         have_data = 1
-                        buf = 'D:\\flash_stub_one_firmware_FNC_tool\\exe_tool\\flash_stub_one_fireware_hadata_FNC.exe \"'+ self.serial_port_list[self.choice1] + '\" \"' + str(lines[num-1]) + '\"'
+                        buf = 'D:\\flash_one_firmware_hadata_tool\\exe_tool\\flash_stub_one_fireware_hadata_FNC.exe \"'+ self.serial_port_list[self.choice1] + '\" \"' + str(lines[num-1]) + '\"'
                         print str(lines[num-1])
                         try:
                             ret = os.system(buf)
